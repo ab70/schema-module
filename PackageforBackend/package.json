@@ -1,0 +1,35 @@
+{
+  "name": "packageforbackend",
+  "version": "3.0.11",
+  "description": "Production-ready Mongoose models with TypeScript support",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src/**/*.js",
+    "src/**/*.d.ts",
+    "src/**/*.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "mongoose",
+    "models",
+    "typescript",
+    "mongodb",
+    "schema"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
