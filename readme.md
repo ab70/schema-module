@@ -13,5 +13,7 @@ npm install
 npm run type-check
 
 # Publish
+```
 npm version patch
 npm publish
+```
